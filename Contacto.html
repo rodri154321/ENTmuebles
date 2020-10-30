@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+    <link rel="stylesheet"
+					href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+					integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+                    crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+    <div id="sideNavigation" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">INICIO</a>
+        <a href="Tenes una idea.html">TENES UNA IDEA?</a>
+        <a href="Nuestros Productos.html">NUESTROS PRODUCTOS</a>
+        <a href="Contacto.html" class="active">CONTACTANOS</a>
+    </div>
+    
+    <nav class="topnav">
+        <a href="#" onclick="openNav()">
+            <svg width="30" height="30" id="icoOpen">
+                <img src="svg/tablero-de-madera (1).svg" alt="menuMadera" height="60px" width="60px">
+            </svg>
+        </a>
+        <div>
+            <a href="index.html"><img src="img/logo sin fondo.png" class="img-fluid" alt="Logo" height="100px" width="100px"></a>
+        </div>
+    </nav>
+    
+    <div id="main">
+
+            <body>
+
+            <div class="contenido">
+                <!-- -----------------------------------------------------------FORMULARIO----------------------------------------------------------- -->
+
+                    <!-- <fieldset name="Informacion Personal">
+                            <form>
+                                
+                                <p></p>
+                                <input type="text" name="Nombre" placeholder="Nombre">
+                                <p></p>
+                                <input type="email" name="email" placeholder="Email">
+                                <p></p>
+                            <p>¿Quiere recibir informacion sobre nuestros productos?<input type="radio" placeholder="Desea recibir el new"></p>
+                            <p></p>
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Deja tu comentario"></textarea>
+                            <p></p>
+                                <input type="submit" placeholder="Enviar formulario">
+                                <input type="reset" placeholder="Limpiar formulario">
+
+                            </form>
+                    </fieldset>-->
+
+                <div class="contacto">
+                    <form class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Nombre y Apellido</label>
+                            <input class="form-control form-control-lg" type="text" placeholder="Nombre y Apellido">
+                        </div>
+                        <div class="form-group">
+                        <label for="exampleFormControlInput1">Email</label>
+                        <input type="email" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="ent@muebles.com">
+                        </div>
+                        <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Dejanos un Mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="form-group">
+                                <input type="submit" placeholder="Enviar formulario">
+                                <input type="reset" placeholder="Limpiar formulario">
+                            </div>
+                    </form>
+                </div>
+                <!-- ---------------------------------------------------------------------------------------------------------------------- -->
+
+            </div>
+            <!-- -----------------------------------------------------------PIE DE PÁGINA----------------------------------------------------------- -->
+
+                <footer>
+                    <div>
+                            <div>
+                                <a href="https://www.instagram.com/entmuebles/"><img src="img/instagram.png" alt="instagram" width="40px" height="40px"></a>
+                                <a href="https://www.facebook.com/entmuebles"><img src="img/facebook.png" alt="facebook" width="40px" height="40px"></a>
+                                <a href=""><img src="img/twiter.png" alt="twiter" width="40px" height="40px"></a>
+                                <a href=""><img src="img/pinterest.png" alt="pinterest" width="40px" height="40px"></a>
+                            </div>
+
+                        <p class="registrada">© 2020  entmuebles</p>
+                    </div>
+                </footer>
+            <!-- ---------------------------------------------------------------------------------------------------------------------- -->
+
+
+<!-- ----------------------------------------------------------- SCRIPT ----------------------------------------------------------- -->
+
+
+                <script>
+                    function openNav() {
+                        document.getElementById("sideNavigation").style.width = "250px";
+                        document.getElementById("main").style.marginLeft = "250px";
+                    }
+                    
+                    function closeNav() {
+                        document.getElementById("sideNavigation").style.width = "0";
+                        document.getElementById("main").style.marginLeft = "0";
+                    }
+                    </script>
+
+            </body>
+
+    </div>
+
+</html>

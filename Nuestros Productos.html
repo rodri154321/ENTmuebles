@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+					href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+					integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+                    crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+
+        <div id="sideNavigation" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">INICIO</a>
+            <a href="Tenes una idea.html">TENES UNA IDEA?</a>
+            <a href="Nuestros Productos.html" class="active">NUESTROS PRODUCTOS</a>
+            <a href="Contacto.html">CONTACTANOS</a>
+        </div>
+        
+        <nav class="topnav">
+            <a href="#" onclick="openNav()">
+                <svg width="30" height="30" id="icoOpen">
+                    <img src="svg/tablero-de-madera (1).svg" alt="menuMadera" height="60px" width="60px">
+                </svg>
+            </a>
+            <div>
+                <a href="index.html"><img src="img/logo sin fondo.png" class="img-fluid" alt="Logo" height="100px" width="100px"></a>
+            </div>
+        </nav>
+        
+        <div id="main">
+
+                <body>
+
+                <div class="contenido">
+
+
+                    <div class="productos">
+                        <div class="selectProduct"><img src="img/nuestros productos/IMG-20200212-WA0003.jpg" class="img-fluid" alt="" width="50%" height="80%">
+                            <p class="">Mesa Balconera</p>
+                        </div>
+                        <div class="selectProduct"><img src="img/nuestros productos/IMG-20200406-WA0029.jpg" class="img-fluid" alt="" width="50%" height="80%">
+                            <p class="">Banquito de Encastre</p>
+                        </div>
+                        <div class="selectProduct"><img src="img/nuestros productos/IMG-20200509-WA0024.jpg" class="img-fluid" alt="" width="50%" height="80%">
+                            <p class="">Soporte para Celular</p>
+                        </div>
+                    </div>
+                    
+
+                </div>
+                    <!-- -----------------------------------------------------------PIE DE PÁGINA----------------------------------------------------------- -->
+
+                    <footer>
+                        <div>
+                                <div>
+                                    <a href="https://www.instagram.com/entmuebles/"><img src="img/instagram.png" alt="instagram" width="40px" height="40px"></a>
+                                    <a href="https://www.facebook.com/entmuebles"><img src="img/facebook.png" alt="facebook" width="40px" height="40px"></a>
+                                    <a href=""><img src="img/twiter.png" alt="twiter" width="40px" height="40px"></a>
+                                    <a href=""><img src="img/pinterest.png" alt="pinterest" width="40px" height="40px"></a>
+                                </div>
+                    
+                            <p class="registrada">© 2020  entmuebles</p>
+                        </div>
+                    </footer>
+
+<!-- ----------------------------------------------------------- SCRIPT ----------------------------------------------------------- -->
+
+
+                    <script>
+                        function openNav() {
+                            document.getElementById("sideNavigation").style.width = "250px";
+                            document.getElementById("main").style.marginLeft = "250px";
+                        }
+                        
+                        function closeNav() {
+                            document.getElementById("sideNavigation").style.width = "0";
+                            document.getElementById("main").style.marginLeft = "0";
+                        }
+                        </script>
+
+
+                </body>
+
+        </div>
+
+</html>
