@@ -65,13 +65,12 @@ html{
 }
 
 /*---------------CSS TEXTOS---------------- */
-.titulo{
+h1{
 
     text-align: center;
     font-size: 350%;
-
+    margin-bottom: 10px;
 }
-
 
 .parrafos{
 
