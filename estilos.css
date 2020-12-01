@@ -31,9 +31,16 @@ html{
 
 /*---------------CSS TENES UNA IDEA?---------------- */
 .idea{
-
     background-color: #03A63C;
     color: white;
+}
+
+.formularioidea{
+
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
 
 }
 
